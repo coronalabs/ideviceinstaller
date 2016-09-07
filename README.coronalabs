@@ -1,0 +1,3 @@
+To build:
+
+libimobiledevice_CFLAGS='-I../../libimobiledevice/include' libimobiledevice_LIBS='-L../../libimobiledevice/src/.libs -L../../libplist/src/.libs -limobiledevice -lplist' libplist_CFLAGS='-I../../libplist/include' ./autogen.sh --prefix=/usr/local && make
