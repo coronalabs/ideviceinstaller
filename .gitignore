@@ -31,9 +31,3 @@ libtool
 stamp-h1
 src/.libs
 src/ideviceinstaller
-
-*.orig
-
-*.rej
-
-*.patch
